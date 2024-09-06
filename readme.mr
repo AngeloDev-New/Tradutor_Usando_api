@@ -1,0 +1,13 @@
+# Web Scraping com APIs de Tradução
+
+Este projeto demonstra como desenvolver um aplicativo de web scraping que utiliza APIs para traduzir palavras. Em vez de utilizar técnicas tradicionais de scraping para extrair dados de páginas web diretamente, o aplicativo é baseado nas APIs usadas pelos próprios sites para realizar traduções. Isso fornece uma abordagem mais confiável e estável para obter traduções, respeitando as diretrizes e termos de serviço das plataformas.
+
+## Visão Geral
+
+Este projeto explora o uso de APIs de tradução disponíveis publicamente, como a Google Cloud Translation API, para traduzir palavras e frases. Em vez de fazer scraping diretamente do Google Tradutor ou outras ferramentas de tradução online, o aplicativo faz uso das APIs documentadas e oferecidas por esses serviços.
+
+## Requisitos
+
+- Python 3.x
+- Bibliotecas Python: `requests`, `json` (ou outras conforme a API escolhida)
+- Conta e chave de API para o serviço de tradução escolhido (por exemplo, Google Cloud Translation)
